@@ -1,0 +1,42 @@
+<main>
+    <form action="/uploadanyfile" enctype="multipart/form-data" method="POST">
+        <input type="file" name="myFile" >
+        <input type="submit" value="Upload Any File">
+    </form>
+
+    <div id="message">
+        {{#if message}}
+        {{message}} {{id}}
+        {{/if}}
+    </div>
+
+
+<br />
+<br/>
+
+    <form id="form-info" method="POST" action="/info">
+        <label for="name">name:</label>
+        <input id="name" type="text" name="name" placeholder="name" />
+        <br /><br />
+        <label for="email">email:</label>
+        <input id="email" type="email" name="email" placeholder="email" />
+        <br /><br />
+        <label for="address">address:</label>
+        <input id="address" type="text" name="address" placeholder="address" />
+        <br /><br />
+        <button type="submit">Log In</button>
+    </form>
+
+    <div id="userMessage">
+        {{#if userMessage}}
+        {{userMessage}} {{id}}
+        {{/if}}
+    </div>
+
+<br /> <br />
+ <a href="/allFiles">Click Here to get Id of uploaded file</a>
+
+
+ <br /> <br />
+ <a href="/users">Click Here to get all user details </a>
+</main>

@@ -1,0 +1,72 @@
+
+body {
+  background: paleturquoise;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 15pt;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: red
+}
+
+
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+  color: red;
+}
+
+
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+label {
+  color: green;
+  font-size: 2rem;
+}
+
+
+button.btn.btn-default {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center; 
+  cursor:pointer;
+}
+
+button.btn.btn-default:hover {
+  background-color: blue;
+}
+
+
+a {
+  color: red;
+}
